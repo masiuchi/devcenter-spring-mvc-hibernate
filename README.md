@@ -1,5 +1,5 @@
-This quickstart will get you going with a Spring MVC Hibernate application that uses a Postgres database service, deployed to Heroku.
+[wovnjava](https://github.com/wovnio/wovnjava) sample application by Spring Framework.
+* https://wovn-spring-sample.herokuapp.com
+* Translate only top page.
 
-The is a demo application for the [Getting Started with Spring MVC Hibernate on Heroku](https://devcenter.heroku.com/articles/getting-started-with-spring-mvc-hibernate) guide.
-
-
+Base application is [here](https://github.com/heroku/devcenter-spring-mvc-hibernate).
