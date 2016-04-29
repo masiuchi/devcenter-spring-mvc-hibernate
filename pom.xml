@@ -30,6 +30,18 @@
             <name>Spring Roo Repository</name>
             <url>http://spring-roo-repository.springsource.org/release</url>
         </repository>
+
+        <!-- wovnjava -->
+        <repository>
+             <id>jitpack.io</id>
+             <url>https://jitpack.io</url>
+             <!-- These lines are not needed if you do not use SNAPSHOT version. -->
+             <snapshots>
+               <enabled>true</enabled>
+               <updatePolicy>always</updatePolicy>
+             </snapshots>
+        </repository>
+        <!-- end -->
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -284,6 +296,15 @@
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>9.1-901-1.jdbc4</version>
+        </dependency>
+
+        <!-- wovnjava -->
+        <dependency>
+          <groupId>com.github.wovnio</groupId>
+          <artifactId>wovnjava</artifactId>
+          <!-- set the version of wovnjava you use. -->
+          <!-- if you want to use development version of wovnjava, please set "-SNAPSHOT" here. -->
+          <version>0.0.1</version>
         </dependency>
     </dependencies>
     <build>
